@@ -5,7 +5,7 @@ from nltk import word_tokenize
 def mutual(start_destin,path_to):
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyDmwYezbftiql8eXkTB-_qJl8BS3D-8T_g'
+    api_key = 'Your API key'
     # Asks the user to input Where they are and where they want to go.
     origin = start_destin.replace(' ', '+')
     destination = path_to.replace(' ', '+')
@@ -66,7 +66,7 @@ def mutual(start_destin,path_to):
 def location_initiate(start_destin,path_to):
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyDmwYezbftiql8eXkTB-_qJl8BS3D-8T_g'
+    api_key = 'Your API key '
     destination = path_to.replace(' ', '+')
 
     while True:
